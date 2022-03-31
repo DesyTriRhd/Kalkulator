@@ -5,6 +5,7 @@
     padding-top: 200px;
     width: 400px;
 }
+
 /*settingan style kalkulator screen */
 .kalkulator-screen {
     width: 100%;
@@ -17,13 +18,16 @@
     padding: 0 20px;
     box-sizing: border-box;
 }
+
 /*modifikasi layout tombol kalkulator */
 .kalkulator-keys{
     width: 100%;
 }
+
 .row{
     display: flex;
 }
+
 button{
     height: 80px;
     background-color: white;
@@ -34,19 +38,23 @@ button{
     width: 25%;
     outline: none;
 }
+
 .all-clear, .zero-btn{
     width: 50%;
 }
+
 /*merubah warna ikon operator dan sama dengan */
 .operator, .equal-sign{
     background-color: rgb(248, 50, 126);
     color: white;
     cursor: pointer;
 }
+
 /*merubah background-color saat kursor mouse diatas tombol */
 button:hover{
     background-color: rgb(252, 144, 185);
 }
+
 .operator:hover, .equal-sign:hover{
     background-color: rgb(255, 4, 100);
     cursor: pointer;
